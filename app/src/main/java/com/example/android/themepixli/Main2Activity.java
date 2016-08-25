@@ -17,7 +17,7 @@ public class Main2Activity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Yha bhi color sahi dikh rha hai?", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Adding more photos", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

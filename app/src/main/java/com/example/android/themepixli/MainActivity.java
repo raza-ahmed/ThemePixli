@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Color mast hai na?", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Uploading photos and adding from gallery", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
